@@ -1,0 +1,65 @@
+nav,
+ul,
+li {
+    list-style-type: none;
+    padding: 15px;
+    display: inline;
+}
+
+header {
+    background-color: rgba(123, 33, 131, 0.589);
+    padding: 15px;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+body {
+    background-color: gray;
+}
+
+a:hover {
+
+    color: rgba(255, 72, 0, 0.774);
+    text-decoration: underline;
+    transition: 600ms;
+}
+
+input[type=button] {
+    background-color: rgb(91, 91, 206);
+    border: none;
+}
+
+.container {
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+
+label {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: rgba(31, 133, 10, 0.616);
+    border: none;
+}
+
+input[type=reset] {
+    background-color: tomato;
+    border: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    border: none;
+    width: 33%;
+
+}
